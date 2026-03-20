@@ -16,7 +16,7 @@
       "database_name": "scoreboard-d1-test",
       "database_id": "b62b6ae1-432f-4799-a9f3-8a34ecb995cc"
     }
-  ]
+  ],
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
