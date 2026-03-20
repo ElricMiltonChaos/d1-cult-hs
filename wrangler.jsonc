@@ -34,7 +34,14 @@
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
-	// "vars": { "MY_VARIABLE": "production_value" },
+	"vars": {
+		"CORS_ALLOW_ORIGIN": "*",
+		"DAILY_SUBMISSION_BUDGET": "250",
+		"DUPLICATE_WINDOW_SECONDS": "300",
+		"LEADERBOARD_LIMIT": "100",
+		"LEADERBOARD_MAX_NAME_LENGTH": "12",
+		"SUBMISSION_RATE_LIMIT_SECONDS": "10"
+	},
 	/**
 	 * Note: Use secrets to store sensitive data.
 	 * https://developers.cloudflare.com/workers/configuration/secrets/
